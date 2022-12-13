@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: none;
+   width: 95%;
+   margin-left: 2rem;
+   height: 2.5rem;
+   margin-top: 8rem;
+   background-color: rgb(255, 254, 254);
+}
+.btn span{
+    padding: 1rem;
+    margin-left: 4rem;
+}
+.btn .search{
+    height: 1.5rem;
+    width: 4rem;
+    background-color: rgb(218, 216, 216);
+    border: none;
+    border-radius: 15px;
+}
+.btn .add{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 8%;
+    border: none;
+    color: rgb(14, 12, 12);
+    background-color: chartreuse;
+}
+.logo{
+    font-weight:bold;
+    color: rgb(120, 120, 121);
+}
+.add:hover{
+    background-color: rgb(65, 245, 65);
+}
+.logo img{
+    height: 4rem;
+}
+
+@media only screen and (max-width: 355px)   {
+    .container{
+       width: 30%;
+    }
+    .logo{
+        width: 20%;
+    }
+ }

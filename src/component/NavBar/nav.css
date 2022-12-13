@@ -1,0 +1,42 @@
+*{
+box-sizing: border-box;
+}
+header{
+    background-color: #e9f3f3;
+    border: .1rem solid beige;
+    box-shadow: 1rem gray;
+}
+.header-context{
+    border: 0px solid rgb(156, 168, 156);
+    position: relative;
+}
+
+ 
+.logo-content{
+    border: 0px solid rgb(165, 184, 165);
+    border:  0px solid green;
+    position: absolute;
+    left: 2rem;
+}
+.emp-text{
+    letter-spacing: 0px;
+    text-transform: capitalize;
+}
+.payroll{
+    color: #42515f;
+}
+span{
+    font-weight: bold;
+    font-size: 1rem;
+    height: 8rem;
+    margin-left: 5rem;
+    color: #42515f;
+}
+
+
+
+@media only screen and (max-width: 355px)   {
+     header{
+        width: 30%;
+     }
+  }

@@ -1,0 +1,53 @@
+
+table{
+    width: 95%;
+    margin-top: -1rem;
+    margin-left: 2rem;
+}
+.table{
+    margin-top: 2rem;
+}
+.table1{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+td{
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: .1rem solid #42515f;
+}
+th{
+    background: #42515f 0% 0% no-repeat padding-box;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #dce5ed;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+button{
+    height: 2rem;
+    width: 4rem;
+    margin: 1rem;
+}
+.link{
+    text-decoration: none;
+   border: none;
+}
+.deleted{
+    background-color: rgb(218, 216, 216);
+    border: none;
+    font-weight: bold;
+    border-radius: 7%;
+}
+.update{
+    background-color: rgb(217, 220, 225);
+    border: none;
+    font-weight: bold;
+    border-radius: 7%;
+
+}
